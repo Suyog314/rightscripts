@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RightScripts</title>
+    <link rel="stylesheet" href="styles_home.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <img src="assets/logo.png" alt="RightScripts Logo">
+        </div>
+
+        <div class="nav-buttons">
+            <div class="dropdown">
+                <button class="dropdown-btn">Language</button>
+                <div class="dropdown-content">
+                    <a href="#">English</a>
+                    <a href="#">Hindi</a>
+                    <a href="#">Marathi</a>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <button class="logout-btn">Logout</button>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <div class="content">
+            <h1 id="hello">Hello User!</h1>
+            <h1>Welcome to RightScripts</h1>
+            <p>This tool will help you create learner-centric video scripts.</p>
+            <div class="buttons">
+                <a href="i_title.html"><button class="new-script">New Script</button></a>
+                <button class="prev-scripts">Previous Scripts</button>
+                <button class="guide-script"> Guide</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Guide Section -->
+    <section class="guide">
+        <h2>Guide</h2>
+        <div class="guide-container">
+            <!-- Left Video -->
+            <div class="guide-item">
+                <img src="assets/thumbnail.png" alt="Tips for writing learner-centric video">
+                <p>Tips for writing learner-centric video</p>
+            </div>
+
+            <!-- Right Video -->
+            <div class="guide-item">
+                <img src="assets/thumbnail.png" alt="How to use the video script writer">
+                <p>How to use the video script writer</p>
+            </div>
+        </div>
+</section>
+
+    <!-- Previous Scripts Section -->
+<section class="previous-scripts">
+    <h2>Previous Scripts</h2>
+    <div class="scripts-container" id="scripts-container">
+        <!-- Script Items will be added dynamically -->
+    </div>
+    <button class="show-more-btn" id="show-more-btn">Show More</button>
+</section>
+
+
+    <!-- footer section-->
+    <footer class="footer">
+        rigthscripts copyright reserved by Ganesh Lokhande
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
